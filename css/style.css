@@ -140,17 +140,17 @@ header{
 }
 .image{
     width: 50%;
-    border: 1px solid black;
-    display: inline-block;
 }
 .item1, .item2{
     width: 100%;
     
 }
+.image, .text{
+    display: inline-block;
+    vertical-align: top;
+}
 .text{
     width: 30%;
-    border: 1px solid black;
-    display: inline-block;
     margin-left: 100px;
 }
 .secondo-h1{
@@ -172,8 +172,6 @@ header{
 .sezione4{
     width: 70%;
     color: black;
-    text-align: center;
-    margin: auto;
     padding-bottom: 30px;
 }
 .quarto-h1{
@@ -182,9 +180,11 @@ header{
 .quarto-p{
     font-size: 15px;
 }
-.quarta-image{
-    text-align: center;
+
+.sezione-5, .sezione4{
+    margin: auto;
 }
+
 main{
     color: black;
 }
@@ -192,12 +192,10 @@ main{
     width: 550px;
     background-image: url('../img/stars.svg');
     background-position: top;
-    margin: auto;
     padding-top: 30px;
-    text-align: center;
     margin-bottom: 50px;
 }
-.bottone{
+.bottone, .sezione-5, .quarta-image, .sezione4{
     text-align: center;
 }
 .nuovo{
@@ -205,15 +203,21 @@ main{
     color: white;
 }
 footer{
-    background-color: black;
-    height: 600px;
+    height: 440px;
     margin-top: 30px;
+    padding-top: 50px;
+}
+footer, .ultimi-bottoni{
+    background-color: black;
 }
 .contenitore-generico{
-    padding-top: 50px;
-    padding-left: 70px;
+    width: 90%;
+    height: 350px;
+    border-bottom: 1px solid #7289DA;
+    margin: auto;
 }
-.titolo-blu{
+
+.titolo-blu, .blu{
     color: #7289DA;
 }
 .nazionalità{
@@ -225,7 +229,46 @@ footer{
 
 .float, .lista{
      float:left;
-     width: 500px;
+}
+.lista{
+    width: 200px;
+    margin-left: 20px;
+}
+.float{
+    width: 300px;
+}
+li{
+    font-size: 18px;
+    list-style: none;
+    padding-top: 10px;
 }
 
+.ultimi-bottoni{
+    height: 60px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+.centratura{
+    width: 90%;
+    margin: auto;
+}
 
+.registrazione{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    background-color: #7289DA;
+    border-radius: 20px;
+}
+.bottone-footer{
+    float: right;
+}
+.symbol-v{
+    font-size: 10px;
+}
+.social div{
+    display: inline-block;
+    margin: 10px;
+    margin-top: 20px;
+}
