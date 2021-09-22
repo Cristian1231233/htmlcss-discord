@@ -141,7 +141,7 @@ header{
 .image{
     width: 50%;
 }
-.item1, .item2{
+.study-group, .Voice-connected, .Coach{
     width: 100%;
     
 }
@@ -181,21 +181,21 @@ header{
     font-size: 15px;
 }
 
-.sezione-5, .sezione4{
+.background-h2, .sezione4{
     margin: auto;
 }
 
 main{
     color: black;
 }
-.sezione-5{
+.background-h2{
     width: 550px;
     background-image: url('../img/stars.svg');
     background-position: top;
     padding-top: 30px;
     margin-bottom: 50px;
 }
-.bottone, .sezione-5, .quarta-image, .sezione4{
+.bottone, .background-h2, .quarta-image, .sezione4{
     text-align: center;
 }
 .nuovo{
